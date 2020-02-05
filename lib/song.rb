@@ -20,10 +20,7 @@ class Song
   end
 
   def self.create
-    Song.new(self)
-    self
+    song = Song.new
+    song
   end
 end
-
-
-lucky.create
