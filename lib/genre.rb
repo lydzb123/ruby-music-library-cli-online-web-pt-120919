@@ -18,4 +18,8 @@ class Genre
     @@all << self
   end
 
+  def self.create(genre_name)
+    Genre.new(genre_name)
+  end
+
 end
