@@ -21,8 +21,5 @@ class Artists
     @@all << self
   end
 
-  def self.create(name)
-    Artist.new(name)
-    # binding.pry
-  end
+
 end
