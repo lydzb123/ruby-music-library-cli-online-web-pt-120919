@@ -22,7 +22,7 @@ class Song
   def self.create(name)
     Song.new(name)
     name.save
-    name
+    return name
     # binding.pry
   end
 end
