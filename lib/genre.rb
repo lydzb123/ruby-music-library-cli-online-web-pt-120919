@@ -14,4 +14,7 @@ class Genre
     @@all.clear
   end
 
+  def save
+  end
+
 end
