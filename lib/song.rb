@@ -19,4 +19,7 @@ class Song
     @@all << self
   end
 
+  def self.create
+    save
+    self
 end
