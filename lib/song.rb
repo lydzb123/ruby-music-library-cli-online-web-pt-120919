@@ -25,4 +25,10 @@ class Song
     Song.new(name)
     # binding.pry
   end
+
+
+  brit.add_song("lucky")
+
+
+
 end
