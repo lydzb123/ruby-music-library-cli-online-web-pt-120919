@@ -20,8 +20,9 @@ class Song
   end
 
   def self.create(name)
-    Song.new(name)
-    name.class.save
+    new_song = Song.new
+    self.name = name
+    new_song
     return name
     # binding.pry
   end
