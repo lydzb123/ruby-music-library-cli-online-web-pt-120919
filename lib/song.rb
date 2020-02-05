@@ -28,9 +28,8 @@ class Song
   end
 
   def artist=(artist_name)
+    artist.add_song(self)
   end
-  brit.add_song("lucky")
-  artist.add_song(self)
 
 
 
