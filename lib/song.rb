@@ -7,7 +7,6 @@ class Song
     @name = name
     self.save
     @artist = Artist.new(artist)
-
     return self
   end
 
