@@ -28,14 +28,7 @@ class Artist
 
 
   def add_song(song_name)
-    self.songs =
-
-
-    artist.add_song(song)
-
-    expect(song.artist).to be(artist)
-    
-
+    song_name.artist = self
   end
 
 
