@@ -8,7 +8,7 @@ class Song
     @name = name
     self.save
     self.artist
-    # @artist = Artist.new(artist).name
+    @artist = Artist.new(artist).name
   end
 
   def self.all
