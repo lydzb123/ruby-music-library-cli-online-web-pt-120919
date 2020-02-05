@@ -10,6 +10,12 @@ class Song
     @artist = artist=(artist)
   end
 
+  def artist=(artist_name)
+    @artist = artist_name
+    artist_name.add_song(self)
+  end
+
+
   def self.all
     @@all
   end
@@ -27,10 +33,6 @@ class Song
     # binding.pry
   end
 
-  def artist=(artist_name)
-    @artist = artist_name
-    artist_name.add_song(self)
-  end
 
 
 
