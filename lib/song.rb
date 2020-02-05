@@ -28,6 +28,7 @@ class Song
 
 
   brit.add_song("lucky")
+  artist.add_song(self)
 
 
 
