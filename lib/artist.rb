@@ -22,7 +22,7 @@ class Artists
   end
 
   def self.create(name)
-    Song.new(name)
+    Artist.new(name)
     # binding.pry
   end
 end
