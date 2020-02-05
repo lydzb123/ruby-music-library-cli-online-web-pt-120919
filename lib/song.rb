@@ -22,10 +22,8 @@ class Song
   end
 
   def self.create(name)
-    new_song = Song.new
-    self.name = name
-    new_song
-    return name
+    Song.new(name)
+
     # binding.pry
   end
 end
