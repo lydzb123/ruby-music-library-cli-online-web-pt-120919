@@ -8,7 +8,7 @@ class Song
     @name = name
     self.save
     self.artist
-end
+  end
 
   def artist=(artist_name)
     @artist = artist_name
