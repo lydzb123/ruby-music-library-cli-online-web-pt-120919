@@ -4,6 +4,8 @@ class Genre
 
   def initialize(name)
     @name = name
+    self.save
+    self
   end
 
   def self.all
