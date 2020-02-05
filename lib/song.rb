@@ -9,7 +9,7 @@ class Song
     self.save
     if artist == nil
     else
-      self.artist = @artist
+      self.artist= = @artist
     end
   end
 
