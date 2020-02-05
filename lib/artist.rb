@@ -23,7 +23,6 @@ class Artist
 
   def self.create(artist_name)
     Artist.new(artist_name)
-
   end
 
 
