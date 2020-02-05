@@ -20,7 +20,6 @@ class Song
   end
 
   def self.create
-    save
-    self
+    Song.new
   end
 end
