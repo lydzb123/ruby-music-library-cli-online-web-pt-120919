@@ -27,7 +27,8 @@ class Song
     # binding.pry
   end
 
-
+  def artist=(artist_name)
+  end
   brit.add_song("lucky")
   artist.add_song(self)
 
