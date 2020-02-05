@@ -27,7 +27,10 @@ class Artist
   end
 
 
-  def add_song
+  def add_song(song_name)
+    self.songs =
+
+    britneyspears.add_song
   end
 
 
